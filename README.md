@@ -12,7 +12,7 @@ lottoarvonta-aika.txt file contains time in HH:MM format that is used to determi
 
 TODO:
   * addin a star number to end of line, that is randomly picked and copied from the 7 numbers drawn before
-  * moving date adding code to it's own file and making it fuction
+  * moving date adding code to it's own file and making it a function
   * making the date adding function shift the actual lottery day when religious holiday happens to be on Saturday
   * shift to using SQLite for saving the lines (...should fix the way too complicated row parser also)
   * simplify the way line of number is formed so that it is a single list variable rather than tuple containing two lists
