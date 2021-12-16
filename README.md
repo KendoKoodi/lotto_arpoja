@@ -8,6 +8,8 @@ User can generate 1-10 lines at one go.
 
 Lines are saved to a file (/numerot/arvotut_lotto.txt).
 
+lottoarvonta-aika.txt file contains time in HH:MM format that is used to determine whether to shift date to next week on the generated lottery lines. If the official weekly deadline should change, it can be easily changed in that file. 
+
 TODO:
   * addin a star number to end of line, that is randomly picked and copied from the 7 numbers drawn before
   * moving date adding code to it's own file and making it fuction
@@ -15,3 +17,5 @@ TODO:
   * shift to using SQLite for saving the lines (...should fix the way too complicated row parser also)
   * simplify the way line of number is formed so that it is a single list variable rather than tuple containing two lists
   * comparing function that can compare actual Veikkaus numbers to generated numbers and find hits.
+  * adding other lottery types
+  * create graphical interface
